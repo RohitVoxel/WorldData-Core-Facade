@@ -17,6 +17,9 @@ The loader-neutral sources compile against the WorldData Core jar only. No Minec
 
 Add the WorldData Core 1.0.0 jar for your loader as a compile-only dependency and declare it as a required dependency in your mod metadata, as the two metadata files here do. Do not shade it into your jar.
 
+## Requires: 
+https://github.com/RohitVoxel/WorldData-Core
+
 ## When to use WDC and when to use Minecraft
 
 | Use WDC for | Keep Minecraft for |

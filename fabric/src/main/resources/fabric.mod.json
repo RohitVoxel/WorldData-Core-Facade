@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "worlddata_facade",
+  "version": "1.0.0",
+  "name": "WorldData Core Facade (example)",
+  "description": "Example mod showing how to use the WorldData Core API in place of direct Minecraft world reads.",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.worlddatafacade.fabric.FacadeFabricMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.1",
+    "java": ">=21",
+    "worlddata_core": ">=1.0.0"
+  }
+}
